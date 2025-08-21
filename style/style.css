@@ -659,15 +659,12 @@ h3 {
 .geo {
     position: relative;
 }
+.more-contacts{
+    position: relative;
+}
 
-.geo:before {
-    content: "";
+.geol{
     position: absolute;
-    background: url(../images/geo.svg);
-    width: 9px;
-    height: 13px;
-    top: 1px;
-    right: 207px;
 }
 
 .phoneee {
@@ -675,19 +672,20 @@ h3 {
     padding-left: 20px;
 }
 
+.geoll{
+    top: 28%;
+    position: absolute;
+}
+
+.geolll{
+    position: absolute;
+    top: 68%;
+}
+
 .phonee {
     padding-left: 20px;
 }
 
-.phoneee:before {
-    content: "";
-    position: absolute;
-    background: url(../images/phonnee.svg);
-    width: 10px;
-    height: 10px;
-    top: 4px;
-    right: 207px;
-}
 
 .geo {
     padding-left: 20px;
@@ -800,17 +798,6 @@ h3 {
 .email {
     position: relative;
 }
-
-.email:before {
-    content: "";
-    position: absolute;
-    background: url(../images/email.svg);
-    width: 10px;
-    height: 8px;
-    top: 6px;
-    right: 207px;
-}
-
 
 .copy p {
     opacity: 0.651;
