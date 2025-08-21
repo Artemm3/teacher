@@ -74,6 +74,146 @@ header {
     text-decoration: none;
 }
 
+.locations {
+    position: relative;
+}
+
+.mail {
+    transition: 1s;
+}
+
+.mail:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.number {
+    position: relative;
+}
+
+.number:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: #3f83bc;
+}
+
+.skypeour {
+    position: relative;
+}
+
+.skypeour:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: #3f83bc;
+}
+
+.call a {
+    transition: 1s;
+}
+
+.call a:hover {
+    background-color: #313131;
+    opacity: .7;
+}
+
+.diplomas {
+    transition: 1s;
+}
+
+.diplomas:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #e6e6e6;
+}
+
+.certificates:hover {
+    background-color: #439eea;
+    color: #fff;
+}
+
+.certificates {
+    transition: 1s;
+}
+
+.diplomass {
+    transition: 1s;
+}
+
+.diplomass:hover {
+    background-color: #439eea;
+    color: #fff;
+}
+
+.locations:hover:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 2px;
+    background-color: #3f83bc;
+    transition: .9s;
+}
+
+.learnn {
+    margin-top: 23px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.button a:hover {
+    background-color: #439eea;
+    color: #fff;
+}
+
+.button a {
+    transition: 1s;
+}
+
+.gray {
+    filter: grayscale(1);
+}
+
+.arrow {
+    margin-right: 35px;
+}
+
+.comfortable {
+    padding: 30px 0 20px 0;
+}
+
+.arroww {
+    margin-left: 35px;
+}
+
+.color {
+    filter: contrast(200%);
+}
+
+.learn {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Roboto";
+    text-align: center;
+}
+
 strong {
     color: #5d5d5d;
     font-weight: 500;
@@ -215,11 +355,8 @@ hr {
     border: 3px solid #439eea;
     border-radius: 50%;
     padding: 24px 0;
-    margin-left: 26px;
     background-color: #439eea;
 }
-
-
 
 figure {
     margin: 0;
@@ -228,11 +365,10 @@ figure {
 .figures {
     display: flex;
     justify-content: space-between;
-    column-gap: 250px;
+    column-gap: 225px;
 }
 
 .figures p {
-    margin: 0;
     font-size: 14px;
     line-height: 21px;
     color: #000000;
@@ -354,6 +490,7 @@ h2 {
 }
 
 .comfortable p {
+    margin: 0;
     background-color: #f7f7f7;
     border: 1px solid #e6e6e6;
     max-width: 457px;
@@ -428,6 +565,54 @@ h2 {
     border-radius: 4px;
     text-decoration: none;
     border: 2px solid #ffffff;
+    transition: 1s;
+}
+
+.about-me p {
+    margin-top: 42px;
+}
+
+.images-last {
+    margin-top: 42px;
+}
+
+.more-contacts {
+    margin-top: 42px;
+}
+
+
+
+.write a:hover {
+    background-color: #313131;
+    border: 2px solid #313131;
+    opacity: 1;
+}
+
+.geo {
+    transition: 1s;
+}
+
+.geo:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.phonee {
+    transition: 1s;
+}
+
+.phonee:hover {
+    color: #fff;
+    opacity: 1;
+}
+
+.phoneee {
+    transition: 1s;
+}
+
+.phoneee:hover {
+    color: #fff;
+    opacity: 1;
 }
 
 .more-about-us {
@@ -464,6 +649,40 @@ h3 {
 }
 
 .geo {
+    position: relative;
+}
+
+.geo:before {
+    content: "";
+    position: absolute;
+    background: url(../images/geo.svg);
+    width: 9px;
+    height: 13px;
+    top: 1px;
+    right: 207px;
+}
+
+.phoneee {
+    position: relative;
+    padding-left: 20px;
+}
+
+.phonee {
+    padding-left: 20px;
+}
+
+.phoneee:before {
+    content: "";
+    position: absolute;
+    background: url(../images/phonnee.svg);
+    width: 10px;
+    height: 10px;
+    top: 4px;
+    right: 207px;
+}
+
+.geo {
+    padding-left: 20px;
     opacity: 0.200;
     font-size: 13px;
     color: #ffffff;
@@ -498,6 +717,17 @@ h3 {
     display: flex;
     column-gap: 3px;
     padding: 0;
+}
+
+.email {
+    transition: 1s;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.email:hover {
+    color: #0ff;
+    text-decoration: none;
 }
 
 .twitter {
@@ -558,6 +788,21 @@ h3 {
 .helppp {
     padding: 15px 0;
 }
+
+.email{
+    position: relative;
+}
+
+.email:before {
+    content: "";
+    position: absolute;
+    background: url(../images/email.svg);
+    width: 10px;
+    height: 8px;
+    top: 6px;
+    right: 207px;
+}
+
 
 .copy p {
     opacity: 0.651;
