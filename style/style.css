@@ -13,6 +13,7 @@ body {
     transition: 1s;
 }
 
+
 .info li:hover>a:before {
     content: "";
     position: absolute;
@@ -78,11 +79,18 @@ header {
     position: relative;
 }
 
-.mail {
+.maill {
     transition: 1s;
 }
 
-.mail:hover {
+.maill {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #3f83bc;
+    font-family: "Open Sans";
+}
+
+.maill:hover {
     color: #000;
     text-decoration: none;
 }
@@ -789,7 +797,7 @@ h3 {
     padding: 15px 0;
 }
 
-.email{
+.email {
     position: relative;
 }
 
