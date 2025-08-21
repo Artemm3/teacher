@@ -79,18 +79,18 @@ header {
     position: relative;
 }
 
-.maill {
+.mailll {
     transition: 1s;
 }
 
-.maill {
+.mailll {
     font-size: 14px;
     text-decoration: underline;
     color: #3f83bc;
     font-family: "Open Sans";
 }
 
-.maill:hover {
+.mailll:hover {
     color: #000;
     text-decoration: none;
 }
