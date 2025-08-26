@@ -18,10 +18,14 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    top: 190%;
+    bottom: 0;
     width: 100%;
     height: 2px;
     background-color: #3f83bc;
+}
+
+.diplomas {
+    border: 1px solid transparent;
 }
 
 .info a:hover:before {
@@ -41,6 +45,9 @@ header {
 }
 
 
+.info a {
+    padding: 16px 0;
+}
 
 .more-info {
     display: flex;
@@ -103,7 +110,7 @@ header {
     content: "";
     position: absolute;
     left: 0;
-    top: 100%;
+    bottom: 0;
     width: 100%;
     height: 2px;
     background-color: #3f83bc;
@@ -222,13 +229,14 @@ header {
     text-align: center;
 }
 
-strong {
+strong a {
     color: #5d5d5d;
     font-weight: 500;
     font-size: 26px;
     color: #5d5d5d;
     font-family: "Ubuntu";
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .main-wrap {
@@ -349,22 +357,33 @@ hr {
 }
 
 .more-books {
+    margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
     border: 3px solid #439eea;
     border-radius: 50%;
-    padding: 27px 0;
-    margin-left: 10px;
+
+
 }
 
+
+
 .more-diploms {
+    margin: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
     border: 3px solid #439eea;
     border-radius: 50%;
-    padding: 24px 0;
     background-color: #439eea;
 }
+
+
 
 figure {
     margin: 0;
@@ -373,7 +392,6 @@ figure {
 .figures {
     display: flex;
     justify-content: space-between;
-    column-gap: 225px;
 }
 
 .figures p {
@@ -434,6 +452,9 @@ h2 {
     border-radius: 4px;
 }
 
+
+
+
 .certificates {
     font-size: 14px;
     color: #000000;
@@ -449,6 +470,9 @@ h2 {
 .diplomaas {
     margin: 25px 0 25px 0;
 }
+
+
+
 
 
 .diplomass {
@@ -497,8 +521,22 @@ h2 {
     justify-content: center;
 }
 
+.color {
+    transition: .5s;
+}
+
+.color:hover {
+    filter: grayscale(1);
+}
+
+.colorr:hover {
+    filter: grayscale(1);
+}
+
+
 .comfortable p {
     margin: 0;
+    padding: 10px;
     background-color: #f7f7f7;
     border: 1px solid #e6e6e6;
     max-width: 457px;
@@ -568,8 +606,7 @@ h2 {
     font-weight: 500;
     font-family: "Roboto";
     text-align: center;
-    opacity: 0.651;
-    padding: 3px 25px;
+    padding: 6px 25px;
     border-radius: 4px;
     text-decoration: none;
     border: 2px solid #ffffff;
@@ -659,11 +696,12 @@ h3 {
 .geo {
     position: relative;
 }
-.more-contacts{
+
+.more-contacts {
     position: relative;
 }
 
-.geol{
+.geol {
     position: absolute;
 }
 
@@ -672,14 +710,18 @@ h3 {
     padding-left: 20px;
 }
 
-.geoll{
+.geoll {
     top: 28%;
     position: absolute;
 }
 
-.geolll{
+.geolll {
     position: absolute;
     top: 68%;
+}
+
+figure {
+    max-width: 180px;
 }
 
 .phonee {
@@ -732,8 +774,12 @@ h3 {
 }
 
 .email:hover {
-    color: #0ff;
+    color: #fff;
     text-decoration: none;
+}
+
+.comfort {
+    background-color: #f2f2f2;
 }
 
 .twitter {
