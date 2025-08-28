@@ -8,6 +8,18 @@ body {
     padding: 0 10px;
 }
 
+
+
+
+.writing {
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
 .info a {
     position: relative;
     transition: 1s;
@@ -73,7 +85,7 @@ header {
 
 .search a {
     display: block;
-    padding: 3.2px 218px 3.2px 11px;
+    padding: 7px 218px 7px 11px;
     border: 2px solid #989898;
     opacity: 0.502;
     font-size: 14px;
@@ -243,7 +255,7 @@ strong a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 .locations {
@@ -276,8 +288,8 @@ h1 {
     color: #fcfcfc;
     font-family: "Roboto Slab";
     text-align: center;
-    margin: 0;
     padding-top: 100px;
+    margin: 0;
 }
 
 .skypeour {
@@ -318,7 +330,7 @@ h1 {
 }
 
 .new {
-    margin: 5px 0 0;
+    margin: 20px 0 0;
 }
 
 .call p {
@@ -329,12 +341,13 @@ h1 {
 }
 
 .all {
-    margin: 0 0 70px 0;
+    margin: 0 0 30px 0;
 }
 
 .call {
     text-align: center;
     background: url(../images/teacher.webp) no-repeat;
+    background-size: 100%;
 }
 
 .boooks {
@@ -348,6 +361,10 @@ h1 {
     font-weight: 400;
     font-family: "Roboto Slab";
     text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
 }
 
 hr {
@@ -398,7 +415,6 @@ figure {
     font-size: 14px;
     line-height: 21px;
     color: #000000;
-    font-weight: 400;
     font-family: "Roboto";
     text-align: center;
 }
@@ -427,7 +443,13 @@ h2 {
     text-align: center;
 }
 
+.figures {
+    padding-top: 20px;
+}
+
+
 .today {
+    margin-top: 30px;
     opacity: 0.800;
     font-size: 14px;
     line-height: 21px;
@@ -575,7 +597,7 @@ h2 {
 }
 
 .calll {
-    margin: 0;
+    margin: 30px 0 0 0;
 }
 
 .press {
@@ -711,13 +733,17 @@ h3 {
 }
 
 .geoll {
-    top: 28%;
+    top: 35%;
     position: absolute;
+}
+
+.phonee {
+    margin-bottom: 20px;
 }
 
 .geolll {
     position: absolute;
-    top: 68%;
+    top: 75%;
 }
 
 figure {
@@ -786,6 +812,12 @@ figure {
     padding: 9px 11px;
     border-radius: 18px;
     background-color: #72b6ef;
+    transition: 1s;
+}
+
+
+.twitter:hover{
+    background-color: #313131;
 }
 
 .google {
@@ -793,18 +825,27 @@ figure {
     padding: 8px 11px 0px;
     border: solid #72b6ef;
     border-radius: 18px;
+    transition: .5s;
+}
+
+.google:hover{
+    border-color: #fff;
 }
 
 .facebook {
     padding: 7px 11px;
     border: solid #72b6ef;
     border-radius: 18px;
+    transition: .5s;
 }
 
+.facebook:hover{
+    border-color: #fff;
+}
 
 .phoneee {
     line-height: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     opacity: 0.200;
     font-size: 13px;
     color: #ffffff;
