@@ -574,6 +574,7 @@ h2 {
 
 .humans {
     display: flex;
+    margin-top: 30px;
     justify-content: center;
     column-gap: 10px;
 }
