@@ -406,7 +406,20 @@ figure {
     margin: 0;
 }
 
+.next {
+    position: absolute;
+    top: 20%;
+    left: 120%;
+}
+
+.back {
+    position: absolute;
+    top: 20%;
+    left: -20%;
+}
+
 .figures {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -543,7 +556,7 @@ h2 {
     justify-content: center;
 }
 
-.gray:hover{
+.gray:hover {
     filter: contrast(100%);
 }
 
@@ -817,8 +830,10 @@ figure {
 }
 
 
-.twitter:hover{
-    background-color: #313131;
+.twitter:hover {
+    background-color: transparent;
+    border: solid #fff;
+    padding: 8px 9px 0;
 }
 
 .google {
@@ -829,7 +844,7 @@ figure {
     transition: .5s;
 }
 
-.google:hover{
+.google:hover {
     border-color: #fff;
 }
 
@@ -840,7 +855,7 @@ figure {
     transition: .5s;
 }
 
-.facebook:hover{
+.facebook:hover {
     border-color: #fff;
 }
 
